@@ -6,9 +6,9 @@ function toggleMode() {
   
     if (html.classList.contains('light')) {
       img.setAttribute("src", "./assets/avatar-light.png")
-      img.setAttribute("alt", "Foto do mayk Brito, usando óculos escuro e jaqueta escura, sem barba e fundo colorido")
+      img.setAttribute("alt", "Foto de Jeferson Satoshi sério, de barba e cabelo penteado para trás, com fundo azul claro.")
     } else {
       img.setAttribute("src", "./assets/avatar.png")
-      img.setAttribute("alt", "Foto de mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo")
+      img.setAttribute("alt", "Foto de Jeferson Satoshi sério, de barba e cabelo longo, com fundo degradê.")
     }
 }
